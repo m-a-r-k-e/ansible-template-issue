@@ -1,4 +1,4 @@
-# Ansible role vars issue
+# Ansible template vars issue
 
 Goal of this playbook is showing the diffrent behaviour in Ansible running on different operating systems:
 
