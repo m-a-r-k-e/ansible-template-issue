@@ -1,2 +1,4 @@
-{% set var_set_in_template=test_var %}
-{% include "includes/test-include.j2" %}
+#jinja2: lstrip_blocks: True
+{% with var_set_in_template=test_var %}
+  {% include "includes/test-include.j2" %}
+{% endwith %}
